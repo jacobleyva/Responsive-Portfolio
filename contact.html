@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  
+
+<body>
+  <body background="https://img.wallpapersafari.com/desktop/1920/1080/22/9/FOtECj.jpg"></body>
+  <div class="container">
+      <nav>
+          <div class="nav-wrapper #b71c1c red darken-4">
+            <a href="#" class="brand-logo"></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="./index.html">About</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      <ul class="sidenav" id="mobile-links">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+      </ul>
+
+  </div>  
+  <div class="container">
+        
+      <div class="row">
+        <div class="col s12 m5">
+          <div class="card-panel center z-depth-3">
+              <img class="responsive-img" src="https://static.thenounproject.com/png/2035-200.png">
+              <!-- <img src="" alt="Mailbox" class="circle responsive-img">  -->
+            <h4>Contact Me</h4>
+            <p>Feel free to message me and I will reply shortly!</p>
+          </div>
+        </div>
+
+        <div class="col s12 m5">
+          <div class="card-panel z-depth-3">
+            <form>
+              <div class="input-field">
+                <input type="text" name="name" id="user">
+                <label for="user">Username</label>
+              </div>
+
+              <div class="input-field">
+                  <input type="email" name="email" id="email">
+                  <label for="email">E-mail</label>
+                </div>
+
+                <div class="input-field">
+                    <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Enter Message</label>
+                  </div>
+                  <input type="submit" name="submit" value="send" class="btn left #b71c1c red darken-4">
+                  <div class="clearfix"></div>
+            </form>
+          </div>
+
+        </div>
+
+
+      </div>
+     
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })
+    </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
